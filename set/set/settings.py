@@ -169,15 +169,15 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_HOST = 'smtp.yandex.ru'  # адрес сервера Яндекс-почты для всех один и тот же
 EMAIL_PORT = 465  # порт smtp сервера тоже одинаковый
-EMAIL_HOST_USER = 'nick.muravscky2013'  # ваше имя пользователя, например, если ваша почта user@yandex.ru, то сюда надо писать user, иными словами, это всё то что идёт до собаки
-EMAIL_HOST_PASSWORD = 'fujin2552fujin'  # пароль от почты
+EMAIL_HOST_USER = 'arwende1010'  # ваше имя пользователя, например, если ваша почта user@yandex.ru, то сюда надо писать user, иными словами, это всё то что идёт до собаки
+EMAIL_HOST_PASSWORD = 'ctfjmfqpiuyhacii'  # пароль от почты
 EMAIL_USE_SSL = True  # Яндекс использует ssl, подробнее о том, что это, почитайте в дополнительных источниках, но включать его здесь обязательно
 
 ADMINS = [
-    ('Nikolay', 'nmuravskij681@gmail.com'),
+    ('Artem', 'arwende1996@gmail.com'),
     #список всех админов в формате ('имя', 'их почта')
 ]
-SERVER_EMAIL = 'nick.muravscky2013@yandex.ru' # это будет у нас вместо аргумента FROM в массовой рассылке
+SERVER_EMAIL = 'arwende1010@yandex.ru' # это будет у нас вместо аргумента FROM в массовой рассылке
 EMAIL_USE_SSL = True  # Яндекс использует ssl, подробнее о том, что это, почитайте в дополнительных источниках, но включать его здесь обязательно
 EMAIL_USE_TLS = False
 
